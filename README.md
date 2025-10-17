@@ -61,6 +61,28 @@ Git commands
 
    THis command is used to delete the tag that is created
 
+5. To Establish a connection to github using SSH
+
+   `ssh-keygen -C filename`
+
+   EX: `ssh-keygen -C project-v1`
+
+   Once you hit the command the key will be save in your local repository which you can see the path after hitting the above command. To just see the key type:
+   **cat /path specified** and copy the key and paste in the github ssh key pair to establish the connection.
+
+
+6. To make a connection to remote repository
+   `git remote add origin <URL>`
+
+   Ex: `git remote add origin git@github.com:Dev0595/project-v1.git`
+
+7. To push from local to remote
+
+   `git push origin master`
+
+8. To check the origin URL
+   `git remote -v`
+
    
 
 
