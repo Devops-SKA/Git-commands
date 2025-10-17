@@ -29,6 +29,24 @@ Git commands
 
    This command is used to check the modifications made to file after pushed to stagging before commit
 
+9. `git log --oneline`
+
+    This command will display the logs information in shorter form
+
+10. `.gitignore`
+
+    Ex: vm .gitignore
+
+        The above file is created where you can add files that you want to ignore during stagging.
+        file1.txt, file2.txt
+
+11. `git commit --amend -m"Your amended commit message"`
+    
+
+    
+
+
+
    
 
   
