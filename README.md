@@ -41,6 +41,30 @@ Git commands
         file1.txt, file2.txt
 
 11. `git commit --amend -m"Your amended commit message"`
+
+     you can only amend of recent commit only
+
+
+########################################################### **Git Tags** ###################################################
+
+1. `git tag -a <tagname> <commit id> -m"Message"`
+
+   Ex: git tag -a v1.0 775504 -m"First version v1.0"
+
+2. `git tag -l` ---> to list all the tags
+
+3. `git show <tagname>`
+
+   This tag to show the modifications made during that commit in the code
+
+4. `git tag -d <tag-name>`
+
+   THis command is used to delete the tag that is created
+
+   
+
+
+
     
 
     
